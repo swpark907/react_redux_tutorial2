@@ -2,7 +2,10 @@ export const INCREASE = "COUNT/INCREASE";
 
 export const increaseCount = (count) => {
   
-  return({ type: INCREASE, count });
+  return({
+    type: INCREASE,
+    count
+  });
 }
 
 const initialState = {

@@ -10,6 +10,7 @@ const Counter = () => {
   const increase = () => {
     dispatch(increaseCount(1));
   };
+  
   return (
     <div>
       {count}
